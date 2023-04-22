@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The coffee dealer</title>
+	<link href="stylecss.css" rel="stylesheet">
+	<link  href="animaciones.css" rel="stylesheet">
+	<link href="estiloresponsive.css" rel="stylesheet">
+	
+	<link rel="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" href="#">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+	$(Document).ready(function(){
+		$(".slider") .bxSlider();
+	})
+	</script>
+	
+	
+</head>
+
+<body>
+	<header>
+		<nav id="menuprincipal">
+			<h1>The coffee dealer</h1>
+			<a href="images/menu.png" id="iconomenucelular" class="celular">*</a>
+			<a href="#" class="cerrar celular">X</a>
+			<ul id="menu" class="desktop">
+				<li><a href="#">Menú</a></li>
+				<li><a href="#">Talleres</a></li>
+				<li><a href="#">Merch</a></li>
+				<li><a href="#">Galería</a></li>
+			</ul>
+			<ul id="acceso" class="desktop">
+				<li><a href="#"> Log In</a></li>
+				<li><a href="#"> Join Us</a></li>
+			</ul>
+		</nav>
+		<h2>Where the<span> coffee</span> is good AF</h2>
+		<p>Ven y descubre tu café favorito</p>
+		<a href="#" class="call2action">Menu</a>
+		
+		<div class="bxslider">
+			<img src="images/coffee-g5b3a09510_1280.jpg" alt="Cafe delicioso">
+		
+		</div>
+		<script>
+		$('.bxslider').bxSlider({
+			auto: true,
+			autoControls: true,
+			stopAutoOnClick: true,
+			pager: true	
+		});
+		</script>
+		
+	</header>
+	<main>
+	<h2>Para todos los gustos</h2>
+		<p>The coffee dealer tiene algo  especial
+		<br>Para todos los gustos</p>
+		<section>
+			<article>
+			<h3>Affo<br>ga<br>to</h3>
+				<img src="images/Affogato.png" alt="Affogato">
+			</article>
+			<article>
+			<h3>Dal<br>go<br>na</h3>
+			</article>
+			<article>
+			<h3>Mat<br>cha</h3>
+			</article>
+			<article>
+			<h3> Cold<br>brew</h3>
+			</article>
+		</section>
+		<a href="#" class="call2action">Ver mas</a>
+		<aside>
+			<h2> Taller de <br> cerámica</h2>
+			<p>El taller te da la técnica y tú pones las ideas, transformando el barro en piezas únicas. </p>
+			<p id="fecha">
+		<span>10</span>
+		<span>12</span>
+		<span>14</span>
+		<span>Marzo</span>
+		</p>
+		<a href="#" id="call2acction">Registrate</a>
+			<img src="images/ceramica.jpg" alt="Taller ceramica"></aside>
+	<footer>
+		<ol id="sitemap">
+		<li>Sobre Nosotros
+			<ol>
+			<li>Nuestra Historia</li>
+				<li>Nuestro Café</li>
+				<li>Nuestra Visión</li>
+			</ol>
+			</li>
+			<li>Colaboraciones
+				<ol>
+				<li>Talleres</li>
+					<li>Exposición</li>
+				</ol>
+			</li>
+		</ol>
+		<ul id="socialmedia">
+		<li><a href="https://www.facebook.com" id="Fb">Facebook</a></li>
+			<li><a href="https://twitter.com" id="TW">Twitter</a></li>
+			<li><a href="https://www.instagram.com" id="Ig">Instagram</a></li>
+			<li><a href="https://www.youtube.com" id="Yt">Youtube</a></li>
+		</ul>
+		<ol id="politicasdesitio">
+		<li><a href="#">Aviso de privacidad</a></li>
+			<li><a href="#">Condiciones de uso</a></li>
+			<li><a href="#">Mapa de sitio</a></li>
+			<li><a href="#">Preferencias de cookies</a>
+			</li>
+		</ol>
+		<p>Derechos reservados 2023. <br>
+		Karen Salas <br>
+			Ciudad Juárez, Diseño Multimedia
+		</p>
+	</footer>
+		</p>
+		
+		
+	</main>
+</body>
+</html>

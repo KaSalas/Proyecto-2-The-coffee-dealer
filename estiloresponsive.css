@@ -1,0 +1,107 @@
+@media screen and (min-width:600px)and (max-width:800px){
+	
+}
+@media screen and (max-width:599px){
+	.celular{
+		display: block;
+	}
+	.desktop{
+		display: none;
+	}
+	body{
+		width: 90%;
+	}
+	header div{
+		display: block;
+		width: 100%;
+		transform: translate(0px,0px);
+	}
+	main{
+		margin-top: 0px;
+		
+	}
+	
+	/* seccion aside viene la info de talleres*/
+	
+	aside img{
+		display: none;
+		width: 100%;
+		margin: 20px,0px;
+		
+	}
+	header{
+		padding-top: 100px;
+		position: static;
+	}
+	
+	nav{
+		display: block;z-index: 1;
+		position: absolute;
+		background-color:black;
+		height: 100vh;
+		width: 80%;
+		right: 0;top: 0;
+		
+	}
+	nav> a{
+		position: absolute;
+		top: 10px; right: 10px;
+	}
+	h1{
+		top: -10px;
+		left: -20px;
+	}
+	nav:target ul{
+		display: block;
+	}
+	#menu{
+		top: 100px;
+		right: 0;
+		width: 60vw;
+		height: 60vh;
+		background-color: white;
+		position: absolute;
+	}
+	nav:target #acceso{
+		width: 60vw;
+		height: 30vh;
+		position: absolute;
+		top: 70vh;
+		right: 0;
+		display: flex;
+		background-color: white;
+	}
+	#menu a{
+		color:black;
+		margin: 5vw;
+		font-size: 3em;
+	}
+	.cerrar{
+		display: none;
+	}
+	nav:target  .cerrar{
+		display: block;
+		background-color: white;
+		font-weight: bolder;
+		padding: 2px;
+	}
+	section article:first-child{
+		display: none;
+	}
+	
+	main section{
+		width: 90%;
+		display: flex;
+
+	}
+	
+	main section article{
+		width: 33vw;
+		height: 33vw;
+	}
+	
+	.bx-controls-direction{
+		display: none;
+	}
+	
+}
